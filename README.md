@@ -23,6 +23,6 @@ Otherwise, this package should support just about any grammar, the method used t
   * [X] Add query cache, to avoid having to recreate queries for any languages we have already done so for.
   * [X] Validate `symbol` that's being returned to `symbol-provider`
   * [X] Obviously support many more languages, shoot for at least the languages supported by Pulsar by default
-  * [ ] Validate the method of finding tag files once package is properly installed
+  * [X] Validate the method of finding tag files once package is properly installed
   * [X] Use `const` or `let` either as the context, or as the tag for the symbol. Once I figure out how to get that information from tree sitter.
   * [ ] Include the scope of the variable as the context, which can also help clarify between duplicate variables in different scopes
