@@ -1,13 +1,13 @@
 {
   "name": "symbol-provider-ts-variables",
   "version": "1.0.0",
-  "description": "",
+  "description": "Provides variables to `symbol-provider` on Tree-sitter grammars",
   "main": "./lib/main.js",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.113.0 <2.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "pulsar --test spec"
   },
   "keywords": [
     "pulsar-package",
@@ -30,5 +30,9 @@
       "type": "boolean",
       "description": "Enable strict language support when choosing if variables can be provided for a grammar."
     }
+  },
+  "devDependencies": {
+    "fs-plus": "^3.1.1",
+    "temp": "^0.9.4"
   }
 }
