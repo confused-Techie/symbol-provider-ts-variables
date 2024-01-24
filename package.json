@@ -1,0 +1,27 @@
+{
+  "name": "symbol-provider-ts-variables",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/main.js",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pulsar-package",
+    "pulsar"
+  ],
+  "author": "confused-Techie",
+  "repository": "https://github.com/confused-Techie/symbol-provider-ts-variables",
+  "license": "MIT",
+  "providedServices": {
+    "symbol.provider": {
+      "description": "Allows external sources to suggest symbols for a given file or project.",
+      "versions": {
+        "1.0.0": "provideSymbols"
+      }
+    }
+  }
+}
