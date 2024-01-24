@@ -23,5 +23,12 @@
         "1.0.0": "provideSymbols"
       }
     }
+  },
+  "configSchema": {
+    "strictSupport": {
+      "default": false,
+      "type": "boolean",
+      "description": "Enable strict language support when choosing if variables can be provided for a grammar."
+    }
   }
 }
